@@ -40,14 +40,14 @@ img {
 	background-color: #f2faf9;
 }
 
-#link{
+.pay {
+	margin: 50px 40px 50px 40px;
 	border-style: hidden;
-	margin: 0px 40px 0px 45px;
-	text-align: center;
-	background-color: blue;
+	padding: 2px 10px 2px 20px;
 	border-radius: 15px;
-	padding: 20px 65px 20px 65px;
-	display: inline-block;
+	background-color: blue;
+	text-align: center;
+	box-shadow: 0px 10px 15px #9eb8b5;
 }
 
 #cancel {
@@ -55,18 +55,18 @@ img {
 	font-weight: bold;
 }
 
-#link {
-	color: white;
-	text-decoration: none;
-}
-
 #order {
 	text-decoration: none;
 	color: #9eb8b5;
 }
 
-#link:hover {
+.pay:hover {
 	opacity: 0.5;
+}
+
+#link {
+	color: white;
+	text-decoration: none;
 }
 
 .change:hover {
@@ -93,16 +93,16 @@ img {
 	<div class="plan">
 	<img style="float:left; margin:5px 15px 5px 0px;" src="file:///C:/Users/twoic/AppData/Local/Temp/Temp1_order-summary-component-main.zip/order-summary-component-main/images/icon-music.svg">
 	<h4 style="margin:15px;">Annual Plan</h4>
-	<p style="margin: 0px 0px 0px 10px; text-align: right;"><a class="change" style="font-weight: bold" href="change.html">Change</a></p>
+	<p style="margin: 0px 0px 0px 10px; text-align: right;"><a class="change" style="font-weight: bold" href="change.html" target="_blank">Change</a></p>
 	<p style="margin: 15px; color:#9eb8b5;">$59.99/year</p>
 	</div>
 
-	<div class="box">
-	<p><a id="link" href="payment.html">Proceed to Payment</a></p>
+	<div class="pay">
+	<p><a id="link" href="payment.html" target="_blank">Proceed to Payment</a></p>
 	</div>
 
 	<div id="cancel">
-	<p><a id="order" href="cancel.html">Cancel Order</a></p>
+	<p><a id="order" href="cancel.html" target="_blank">Cancel Order</a></p>
 	</div>
 </div>
 </body>
