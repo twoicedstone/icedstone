@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title></title>
+<style>
+.body {
+	border-style:hidden;
+	border-color: black;
+	margin: 234px;
+	border-radius: 40px;
+	background-color: white;
+	height: 700px;
+	width: 350px;
+}
+
+img {
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+}
+
+#heading {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold; 
+}
+
+#message {
+	text-align: center;
+	font-size: 20px;
+}
+
+.plan {
+	line-height: 0px;
+	margin: 50px 40px 50px 40px;
+	border-style: hidden;
+	padding: 10px 10px 10px 20px;
+	border-radius: 15px;
+	background-color: #f2faf9;
+}
+
+#link{
+	border-style: hidden;
+	margin: 0px 40px 0px 45px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 15px;
+	padding: 20px 65px 20px 65px;
+	display: inline-block;
+}
+
+#cancel {
+	text-align: center;
+	font-weight: bold;
+}
+
+#link {
+	color: white;
+	text-decoration: none;
+}
+
+#order {
+	text-decoration: none;
+	color: #9eb8b5;
+}
+
+#link:hover {
+	opacity: 0.5;
+}
+
+.change:hover {
+	opacity: 0.5;
+}
+
+#order:hover {
+	opacity: 1.0;
+	color: blue;
+}
+
+
+  </style>
+  
+</head>
+
+<body style="background-color: #b7f7f4;">
+
+<div class="body">
+	<img class="img" width="350"; src="file:///C:/Users/twoic/AppData/Local/Temp/Temp1_order-summary-component-main.zip/order-summary-component-main/images/illustration-hero.svg">
+	<h3 id="heading">Order Summary</h3>
+	<p id="message">You can listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+	
+	<div class="plan">
+	<img style="float:left; margin:5px 15px 5px 0px;" src="file:///C:/Users/twoic/AppData/Local/Temp/Temp1_order-summary-component-main.zip/order-summary-component-main/images/icon-music.svg">
+	<h4 style="margin:15px;">Annual Plan</h4>
+	<p style="margin: 0px 0px 0px 10px; text-align: right;"><a class="change" style="font-weight: bold" href="change.html">Change</a></p>
+	<p style="margin: 15px; color:#9eb8b5;">$59.99/year</p>
+	</div>
+
+	<div class="box">
+	<p><a id="link" href="payment.html">Proceed to Payment</a></p>
+	</div>
+
+	<div id="cancel">
+	<p><a id="order" href="cancel.html">Cancel Order</a></p>
+	</div>
+</div>
+</body>
+</html>
