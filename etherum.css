@@ -1,0 +1,96 @@
+.main {
+	padding: 30px 30px 30px 30px;
+	border: hidden;
+	margin: 50px 50px 50px 50px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: #19304f;
+	position:relative;
+	left: 400px;
+	top: 100px;
+}
+
+#author {
+	margin: 0px 2px 0px 2px;
+	padding: 0px 60px 0px 5px;
+	text-align: center;
+	position: relative;
+	bottom: 5px;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+
+#days {
+	float: right;
+	padding: 0px 2px 0px 0px;
+	margin: 2px 2px 0px 10px;
+	position: relative;
+	bottom: 5px;
+	left: 25px;
+}
+
+#clock {
+	float: right;
+	padding-right:0px;
+	position: relative;
+	right: 70px;
+	bottom: 3px;			
+
+}
+
+#main_image {
+	border-radius: 10px;
+}
+
+#equilibrium:hover {
+	opacity: 1.0;
+	color:#19fff7
+}
+
+#equilibrium {
+	color: white;
+	font-size: 25px;
+	font-family: 'century gothic';
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#main_image:hover {
+	opacity: 0.5;
+	filter: grayscale(100%);
+}
+
+#name {
+	color: white;
+	text-decoration: none;
+}
+
+#name:hover {
+	color:#19fff7;
+	opacity: 1.0;
+}
+
+#line {
+	border: none;
+	height: 1px;
+	background-color:#9ea6b0;
+}
+
+#footer {
+	position: relative;
+	top: 80px;
+	left: 520px;
+	color:white;
+	font-family: 'century gothic';
+	font-size: 15px;
+}
+
+#designer {
+	text-decoration: none;
+	color:#9ea6b0;
+}
+
+#designer:hover {
+	color:#19fff7;
+	opacity: 1.0;
+}
