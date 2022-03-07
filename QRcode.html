@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	        <title>QR code</title>
+		<link rel="icon" type="image/x-icon" href="practice project/images/favicon-32x32.png">
+		<style>
+			
+			* {
+				box-sizing: border-box;
+			}
+
+			.body {
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex-direction: column;
+				height: 910px;
+			}
+
+			.container {
+				text-align: center;	
+				border-style: hidden;
+				width: 350px;
+				padding: 20px;
+				font-family:Verdana, Geneva, Tahoma, sans-serif;
+				border-radius: 30px;
+				background-color: hsl(0, 0%, 100%);
+			}
+
+			#image {
+				width: 300px;
+				border-radius: 20px;
+			}
+
+			#p1 {
+				font-weight: 700;
+				font-size: 20px;
+				color: hsl(218, 44%, 22%);
+			}
+
+			#p2 {
+				font-weight: 400;
+				font-size: 15px;
+				color: hsl(220, 15%, 55%);
+			}
+
+						
+		</style>
+		<body  style="background-color: hsl(212, 45%, 89%)">
+			
+			<div class="body">
+
+                <div class="container" >
+				    <div>
+                        <img id="image" src="qr-code-component-main/images/image-qr-code.png" alt="QR code">
+				    </div>
+					
+				    <div id="p1">
+				        <p>Improve your front-end skills by building projects</p>
+				    </div>
+					
+				    <div id="p2">
+				        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+				    </div>
+				</div>
+				
+			</div>
+	
+		</body>
+	</head>
+</html>
