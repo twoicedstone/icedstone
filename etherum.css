@@ -1,13 +1,17 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+	flex-direction: column;
+}
+
 .main {
 	padding: 30px 30px 30px 30px;
 	border: hidden;
-	margin: 50px 50px 50px 50px;
 	width: 300px;
 	border-radius: 20px;
-	background-color: #19304f;
-	position:relative;
-	left: 400px;
-	top: 100px;
+	background-color: hsl(216, 50%, 16%);
 }
 
 #author {
@@ -73,14 +77,11 @@
 #line {
 	border: none;
 	height: 1px;
-	background-color:#9ea6b0;
+	background-color:hsl(215, 32%, 27%);
 }
 
 #footer {
-	position: relative;
-	top: 80px;
-	left: 520px;
-	color:white;
+	color: white;
 	font-family: 'century gothic';
 	font-size: 15px;
 }
@@ -93,4 +94,10 @@
 #designer:hover {
 	color:#19fff7;
 	opacity: 1.0;
+}
+
+@media only screen and (min-width: 375px) {
+	.container {
+		width: 100%;
+	}
 }
