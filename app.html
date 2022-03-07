@@ -1,110 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>App</title>
-	<link rel="icon" type="image/x-icon" href="https://user-images.githubusercontent.com/100494417/156156112-8f5112c7-dd4b-4baa-ac5b-fda5a64861f7.png">
-<style>
-.body {
-	border-style:hidden;
-	border-color: black;
-	margin: 234px;
-	border-radius: 40px;
-	background-color: white;
-	height: 700px;
-	width: 350px;
-}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="myapp.css">
+            <title>App</title>
+                <link rel="icon" type="image/x-icon" href="practice project/images/favicon-32x32.png">
+    </head>
 
-img {
-	border-top-left-radius: 35px;
-	border-top-right-radius: 35px;
-}
+            <body id="background" style="background-color: #dfeef5;">
+	            <div class="flex-container">
 
-#heading {
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold; 
-}
-
-#message {
-	text-align: center;
-	font-size: 20px;
-}
-
-.plan {
-	line-height: 0px;
-	margin: 50px 40px 50px 40px;
-	border-style: hidden;
-	padding: 10px 10px 10px 20px;
-	border-radius: 15px;
-	background-color: #f2faf9;
-}
-
-.pay {
-	margin: 50px 40px 50px 40px;
-	border-style: hidden;
-	padding: 2px 10px 2px 20px;
-	border-radius: 15px;
-	background-color: blue;
-	text-align: center;
-	box-shadow: 0px 10px 15px #9eb8b5;
-}
-
-#cancel {
-	text-align: center;
-	font-weight: bold;
-}
-
-#order {
-	text-decoration: none;
-	color: #9eb8b5;
-}
-
-.pay:hover {
-	opacity: 0.5;
-}
-
-#link {
-	color: white;
-	text-decoration: none;
-}
-
-.change:hover {
-	opacity: 0.5;
-}
-
-#order:hover {
-	opacity: 1.0;
-	color: blue;
-}
-
-
-  </style>
-  
-</head>
-
-<body style="background-color: #b7f7f4;">
-
-<div class="body">
-	<img class="img" width="350"; src="https://user-images.githubusercontent.com/100494417/156156198-7b6cd527-3067-4a54-96f7-72c41243c63c.svg">
-	<h3 id="heading">Order Summary</h3>
-	<p id="message">You can listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                    <div class="body">
+	                    <img class="img" width="350"; src="file:///C:/Users/twoic/AppData/Local/Temp/Temp1_order-summary-component-main.zip/order-summary-component-main/images/illustration-hero.svg">
+	                    <h3 id="heading">Order Summary</h3>
+	                    <p id="message">You can listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 	
-	<div class="plan">
-	<img style="float:left; margin:5px 15px 5px 0px;" src="https://user-images.githubusercontent.com/100494417/156156159-65404f07-13d2-45bc-b126-36db65d5e7ec.svg">
-	<h4 style="margin:15px;">Annual Plan</h4>
-	<p style="margin: 0px 0px 0px 10px; text-align: right;"><a class="change" style="font-weight: bold" href="change.html" target="_blank">Change</a></p>
-	<p style="margin: 15px; color:#9eb8b5;">$59.99/year</p>
-	</div>
+	                    <div class="plan">
+	                        <img style="float:left; margin:5px 15px 5px 0px;" src="file:///C:/Users/twoic/AppData/Local/Temp/Temp1_order-summary-component-main.zip/order-summary-component-main/images/icon-music.svg">
+	                        <h4 style="margin:15px;">Annual Plan</h4>
+	                        <p style="margin: 0px 0px 0px 10px; text-align: right;"><a class="change" style="font-weight: bold" href="change.html" target="_blank">Change</a></p>
+	                        <p style="margin: 15px; color:#9eb8b5;">$59.99/year</p>
+	                    </div>
 
-	<div class="pay">
-	<p><a id="link" href="payment.html" target="_blank">Proceed to Payment</a></p>
-	</div>
+	                    <div class="box">
+	                        <p><a id="link" href="payment.html" target="_blank">Proceed to Payment</a></p>
+	                    </div>
 
-	<div id="cancel">
-	<p><a id="order" href="cancel.html" target="_blank">Cancel Order</a></p>
-	</div>
-</div>
-</body>
+	                    <div id="cancel">
+	                        <p><a id="order" href="cancel.html" target="_blank">Cancel Order</a></p>
+	                    </div>
+	                </div>
+                </div>
+            </body>
 </html>
