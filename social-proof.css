@@ -1,0 +1,218 @@
+
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				max-width: 100%;
+				text-align: center;
+				font-family: 'League Spartan', sans-serif;
+				background-color: hsl(300, 24%, 96%);
+			}
+
+			.container {
+				max-width: 70rem;
+				padding: 0 2rem;
+				background-color: hsl(0, 0%, 100%);
+				background-image: url(./social-proof-section-master/images/bg-pattern-top-desktop.svg),
+				                  url(./social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+				background-position: top left, bottom right;
+				background-repeat: no-repeat;
+				background-size: max(50%, 400px);				  
+			}
+
+			.header h1 {
+				font-weight: 700;
+				font-size: 2.33rem;
+				line-height: 2rem;
+				margin-bottom: 1.5rem;
+				margin-top: 2rem;
+				max-width: 12ch;
+				margin-left: auto;
+				margin-right: auto;
+				padding-top: 2rem;
+				color:hsl(300, 43%, 22%)
+			}
+
+			.header p {
+				font-size: 0.71rem;
+				font-weight: 500;
+				margin-bottom: 2rem;
+				color: hsl(303, 10%, 53%);
+			}
+
+			.ratings p {
+				font-size: 0.6rem;
+				font-weight: 700;
+				color:hsl(300, 43%, 22%);
+			}
+
+			.rating-1 {
+				background-color: hsl(300, 24%, 96%);
+				margin-bottom: 1rem;
+				border-radius: 5px;
+				padding: 5px 0;
+			}
+
+			.rating-2 {
+				background-color: hsl(300, 24%, 96%);
+				margin-bottom: 1rem;
+				border-radius: 5px;
+				padding: 5px 0;
+			}
+
+			.rating-3 {
+				background-color: hsl(300, 24%, 96%);
+				margin-bottom: 2rem;
+				border-radius: 5px;
+				padding: 5px 0;
+			}
+
+			.customer-review {
+				padding: 2rem 1rem;
+				background-color: hsl(300, 43%, 22%);
+				margin-bottom: 1rem;
+				border-radius: 5px;
+			}
+
+			.customer-review img {
+                float: left;
+				width: 2.5rem;
+				border-radius: 50%;
+				margin-left: 1rem;
+			}
+
+			.customer-review p {
+				margin-top: 2rem;
+				font-size: 0.65rem;
+				color: hsl(0, 0%, 100%);
+				text-align: left;
+				margin-left: 1rem;
+			}
+			
+			.customer-review h5 {
+				margin-left: 4rem;
+				color: hsl(0, 0%, 100%);
+				font-size: 00.656rem;
+				text-align: left;
+			}
+
+			.customer-review h6 {
+				margin-left: 4rem;
+				color: hsl(333, 80%, 67%);
+				font-weight: 400;
+				font-size: 0.58rem;
+				text-align: left;
+			}
+
+			@media only screen and (min-width: 1000px) {
+				.top {
+					display: flex;
+					padding: 2rem 4rem;
+					justify-content: space-between;
+					margin-right: auto;
+					margin-left: auto;
+				}
+
+				.header {
+					text-align: left;
+				}
+
+				.header h1 {
+					margin-bottom: 0.5rem;
+					padding-top: 0;
+				}
+
+				.ratings {
+					margin-right: 1rem;
+					margin-top: 2rem;
+					padding-right: 4rem;
+					padding-left: 4rem;
+				}
+
+				.rating-1 {
+					display: flex;
+					padding: 0.5rem 2rem;
+					margin-right: 4rem;
+				}
+
+				.rating-2 {
+					display: flex;
+					padding: 0.5rem 2rem;
+					margin-left: 2rem;
+					margin-right: 2rem;
+				}
+
+				.rating-3 {
+					display: flex;
+					padding: 0.5rem 2rem;
+					margin-left: 4rem;
+				}
+
+				.ratings p {
+					padding-left: 1rem;
+					line-height: 1.2rem;
+				}
+
+				.bottom {
+					display: flex;
+					padding: 0rem 4rem 3rem;
+					gap: 1rem;
+					margin-right: auto;
+					margin-left: auto;
+				}
+
+				#colton {
+					margin-bottom: 2rem;
+				}
+
+				#irene {
+					margin-bottom: 1rem;
+					margin-top: 1rem;
+				}
+
+				#anne {
+					margin-top: 2rem;
+					margin-bottom: 0rem;
+				}
+
+				.container {
+				    max-width: 70rem;
+				    padding: 0 2rem;
+					margin: 0 auto;
+					margin-top: 13rem;
+			    }
+			}
+
+			@media only screen and (min-width: 1900px) {
+				.bottom {
+					display: flex;
+					padding: 0rem 4rem 3rem;
+					gap: 1rem;
+					margin-right: auto;
+					margin-left: auto;
+				}
+
+				#colton {
+					margin-bottom: 2rem;
+				}
+
+				#irene {
+					margin-bottom: 1rem;
+					margin-top: 1rem;
+				}
+
+				#anne {
+					margin-top: 2rem;
+					margin-bottom: 0rem;
+				}
+
+				.container {
+				    max-width: 70rem;
+				    padding: 0 2rem;
+				    margin: 0 auto;
+					margin-top: 13rem;
+			    }
+			}
