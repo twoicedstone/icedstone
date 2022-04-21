@@ -16,8 +16,8 @@
 				max-width: 70rem;
 				padding: 0 2rem;
 				background-color: hsl(0, 0%, 100%);
-				background-image: url(./social-proof-section-master/images/bg-pattern-top-desktop.svg),
-				                  url(./social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+				background-image: url(https://user-images.githubusercontent.com/100494417/164415846-0914150e-309d-4f31-929c-e19cd67d945a.svg),
+				                  url(https://user-images.githubusercontent.com/100494417/164415846-0914150e-309d-4f31-929c-e19cd67d945a.svg);
 				background-position: top left, bottom right;
 				background-repeat: no-repeat;
 				background-size: max(50%, 400px);				  
