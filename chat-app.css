@@ -1,0 +1,251 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: auto;
+	font-family: 'Rubik', sans-serif;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: hsl(270, 20%, 96%);
+}
+
+.purple {
+	background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	width: 50%;
+	height: 50vh;
+	position: absolute;
+	border-radius: 0 0 100% 0;
+}
+
+.gray {
+	background-color: hsl(270, 20%, 94%);
+	width: 50%;
+	height: 50vh;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 100% 0 0 0;
+}
+
+.phone {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	padding: 1rem;
+	border-radius: 30px;
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top {
+	border-radius: 25px 25px 5px 5px;
+	background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.camera {
+	width: 150px;
+	padding: 0.6rem;
+	margin: 0 auto;
+	border-radius: 0px 0px 15px 15px;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.app {
+	background-color: hsl(270, 20%, 96%);
+	border-radius: 0px 0px 20px 20px;
+	padding: 0.5rem;
+}
+
+.dogs {
+	text-align: right;
+	margin-top: 15px;
+}
+
+.dogs img {
+	width: 3.5rem;
+	border-radius: 10px;
+}
+
+.left p {
+	font-size: 10px;
+	width: 150px;
+	padding: 0.5rem;
+	border-radius: 15px 15px 15px 5px;
+	margin-top: 8px;
+	background-color: hsl(270, 20%, 92%);
+	color: hsl(276, 55%, 52%)
+}
+
+.right p {
+	font-size: 10px;
+	padding: 0.5rem;
+	text-align: right;
+	width: 150px;
+	border-radius: 15px 15px 5px 15px;
+	margin-left: 100px;
+	margin-top: 8px;
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(271, 15%, 43%);
+}
+
+.details {
+	display: grid;
+	grid-template-columns: 10px auto 20px;
+	width: 200px;
+	border-radius: 15px 15px 15px 5px;
+	margin-top: 8px;
+	background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.details h6 {
+	width: 50px;
+	margin-top: 8px;
+	margin-left: -30px;
+	text-align: center;
+	padding: 0.5rem;
+	color: hsl(0, 0%, 100%);
+}
+
+.details p {
+	width: 100px;
+	margin-left: 25px;
+	margin-top: 13px;
+	font-size: 10px;
+	color: hsl(276, 100%, 81%);
+}
+
+.details i {
+	margin-top: 12px;
+	margin-left: 10px;
+	color: hsl(276, 100%, 81%);
+}
+
+.user-profile {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 1rem;
+}
+
+.user-profile img {
+	width: 1.5rem;
+	border-radius: 50%;
+	margin-left: -30px;
+	margin-top: -4px;
+	border: 1px solid hsl(0, 0%, 100%);
+}
+
+.user-profile h6 {
+	margin-left: -39px;
+	margin-bottom: 2px;
+	margin-top: -6px;
+	font-size: 13px;
+	font-weight: 500;
+	color: hsl(270, 20%, 96%);
+}
+
+.user-profile p {
+	font-size: 10px;
+	margin-left: -39px;
+	color: hsl(276, 100%, 81%);
+}
+
+#ellipsis {
+	text-align: right;
+	color: hsl(0, 0%, 100%);
+}
+
+#angle {
+	color: hsl(0, 0%, 100%);
+}
+
+.bottom {
+	display: grid;
+	grid-template-columns: auto 20px;
+	border-radius: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 0.5rem;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.bottom p {
+	font-size: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 1rem;
+	color: hsl(206, 6%, 79%);
+}
+
+.bottom div {
+	background-color: hsl(271, 36%, 10%);
+	color:hsl(0, 0%, 100%);
+	text-align: center;
+	border-radius: 50%;
+}
+
+.introduction {
+	position: relative;
+	text-align: center;
+	padding: 1rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+.main-paragraph {
+	font-size: 20px;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+	color: hsl(270, 7%, 64%)
+}	
+
+.heading {
+	font-size: 37px;
+	font-weight: 500;
+	margin-top: 1.5rem;
+	color: hsl(271, 36%, 24%)
+}
+
+@media only screen and (min-width: 1440px) {
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+		width: auto;
+		height: 100%;
+	}
+
+	.phone {
+		margin-top: 10rem;
+		margin-bottom: 8.25rem;
+		margin-left: 30rem;
+	}
+
+	.introduction {
+		width: 800px;
+		text-align: left;
+		margin-top: 20rem;
+		margin-left: 5rem;
+	}
+
+	.purple {
+		height: 90%;
+		width: 30%;
+		background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+		border-radius: 0 0 50% 45%;
+	}
+
+	.gray {
+		height: 90%;
+		width: 20%;
+		border-radius: 90% 0 0 0;
+	}
+
+	.heading {
+		font-size: 45px;
+	}
+
+	.main-paragraph {
+		font-size: 25px;
+	}
+}
