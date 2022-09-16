@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+ 
+  <style>
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    main{
+      padding: 1rem;
+    }
+
+    .description{
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    div a{
+      text-decoration: none;
+      padding: 10px 30px 10px 30px;
+      border-radius: 30px;
+      background-color: hsl(0, 0%, 95%);
+    }
+
+    .heading{
+      margin-top: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: hsl(0, 0%, 95%)
+    }
+
+    .sedan{
+      padding: 3rem;
+      background-color:  hsl(31, 77%, 52%);
+      border-radius: 10px 10px 0 0;
+    }
+
+    .sedan a{
+      color:hsl(31, 77%, 52%);
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+    }
+
+    .sedan a:hover{
+      background-color: hsl(31, 77%, 52%);
+      color:hsla(0, 0%, 100%, 0.75);
+      border: 2px solid hsl(0, 0%, 95%);
+    }
+
+    .suv{
+      padding: 3rem;
+      background-color:  hsl(184, 100%, 22%);
+    }
+
+    .suv a{
+      color:hsl(184, 100%, 22%);
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+    }
+
+    .suv a:hover{
+      background-color: hsl(184, 100%, 22%);
+      color:hsla(0, 0%, 100%, 0.75);
+      border: 2px solid hsl(0, 0%, 95%);
+    }
+
+    .luxury{
+      padding: 3rem;
+      background-color:  hsl(179, 100%, 13%);
+      border-radius: 0 0 10px 10px;
+    }
+
+    .luxury a{
+      color:hsl(179, 100%, 13%);
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+    }
+
+    .luxury a:hover{
+      background-color: hsl(179, 100%, 13%);
+      color:hsla(0, 0%, 100%, 0.75);
+      border: 2px solid hsl(0, 0%, 95%);
+    }
+
+    @media only screen and (min-width: 1130px) {
+      main{
+        display: flex;
+        width: 70rem;
+        height: 40rem;
+        margin: auto;
+        margin-top: 10rem;
+      }
+
+      .description{
+        margin-bottom: 8rem;
+        font-size: 20px;
+        margin-top: 2rem; 
+      }
+
+      .heading{
+        font-size: 50px;
+        margin-top: 3rem;
+      }
+
+      div img{
+        width: 100px;
+      }
+
+      .sedan{
+        border-radius: 10px 0 0 10px;
+      }
+
+      .luxury{
+        border-radius: 0 10px 10px 0;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <main>
+    
+    <div class="sedan">
+      <img src="./images/icon-sedans.svg" alt="sedan icon" title="sedan icon" tabindex="0">
+      <h1 class="heading">SEDANS</h1>
+      <p class="description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip.</p>
+        <a href="" tabindex="0">Learn More</a>
+    </div>
+  
+    <div class="suv">
+      <img src="./images/icon-suvs.svg" alt="suv icon" title="suv icon" tabindex="0">
+      <h1 class="heading">SUVS</h1>
+      <p class="description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.</p>
+        <a href="" tabindex="0">Learn More</a>
+    
+    </div>
+  
+    <div class="luxury">
+      <img src="./images/icon-luxury.svg" alt="Luxury icon" title="Luxury icon" tabindex="0">
+      <h1 class="heading">LUXURY</h1>
+      <p class="description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.</p>
+        <a href="" tabindex="0">Learn More</a>
+    </div>
+   
+  </main>
+</body>
+</html>
