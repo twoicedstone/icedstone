@@ -1,164 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://kit.fontawesome.com/367d23150e.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://user-images.githubusercontent.com/100494417/190622816-f5d13e99-a9c7-4b87-8c75-ed6a31a932f1.png">
-  
-  <title>Frontend Mentor | 3-column preview card component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="fylo.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
- 
-  <style>
-    *{
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-    }
 
-    main{
-      padding: 1rem;
-    }
-
-    .description{
-      margin-top: 2rem;
-      margin-bottom: 4rem;
-      font-family: 'Lexend Deca', sans-serif;
-      font-weight: 400;
-      font-size: 15px;
-      color: hsla(0, 0%, 100%, 0.75);
-    }
-
-    div a{
-      text-decoration: none;
-      padding: 10px 30px 10px 30px;
-      border-radius: 30px;
-      background-color: hsl(0, 0%, 95%);
-    }
-
-    .heading{
-      margin-top: 2rem;
-      font-family: 'Big Shoulders Display', cursive;
-      font-weight: 700;
-      color: hsl(0, 0%, 95%)
-    }
-
-    .sedan{
-      padding: 3rem;
-      background-color:  hsl(31, 77%, 52%);
-      border-radius: 10px 10px 0 0;
-    }
-
-    .sedan a{
-      color:hsl(31, 77%, 52%);
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 15px;
-    }
-
-    .sedan a:hover{
-      background-color: hsl(31, 77%, 52%);
-      color:hsla(0, 0%, 100%, 0.75);
-      border: 2px solid hsl(0, 0%, 95%);
-    }
-
-    .suv{
-      padding: 3rem;
-      background-color:  hsl(184, 100%, 22%);
-    }
-
-    .suv a{
-      color:hsl(184, 100%, 22%);
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 15px;
-    }
-
-    .suv a:hover{
-      background-color: hsl(184, 100%, 22%);
-      color:hsla(0, 0%, 100%, 0.75);
-      border: 2px solid hsl(0, 0%, 95%);
-    }
-
-    .luxury{
-      padding: 3rem;
-      background-color:  hsl(179, 100%, 13%);
-      border-radius: 0 0 10px 10px;
-    }
-
-    .luxury a{
-      color:hsl(179, 100%, 13%);
-      font-family: 'Lexend Deca', sans-serif;
-      font-size: 15px;
-    }
-
-    .luxury a:hover{
-      background-color: hsl(179, 100%, 13%);
-      color:hsla(0, 0%, 100%, 0.75);
-      border: 2px solid hsl(0, 0%, 95%);
-    }
-
-    @media only screen and (min-width: 1130px) {
-      main{
-        display: flex;
-        width: 70rem;
-        height: 40rem;
-        margin: auto;
-        margin-top: 10rem;
-      }
-
-      .description{
-        margin-bottom: 8rem;
-        font-size: 20px;
-        margin-top: 2rem; 
-      }
-
-      .heading{
-        font-size: 50px;
-        margin-top: 3rem;
-      }
-
-      div img{
-        width: 100px;
-      }
-
-      .sedan{
-        border-radius: 10px 0 0 10px;
-      }
-
-      .luxury{
-        border-radius: 0 10px 10px 0;
-      }
-    }
-    
-  </style>
 </head>
 <body>
   <main>
-    
-    <div class="sedan">
-      <img src="https://user-images.githubusercontent.com/100494417/190622786-3560188e-46f2-4e8e-988a-158e2ad5b352.svg" alt="sedan icon" title="sedan icon" tabindex="0">
-      <h1 class="heading">SEDANS</h1>
-      <p class="description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-        or on your next road trip.</p>
-        <a href="" tabindex="0">Learn More</a>
+    <div class="topmost">
+      <div>
+        <img id="logo" src="./images/logo.svg" alt="fylo logo" tabindex="0">
+      </div>
+      <div class="nav">
+        <div>
+          <a href="">Features</a>
+        </div>
+        <div>
+          <a href="">Team</a>
+        </div>
+        <div>
+          <a href="">Sign In</a>
+        </div>
+      </div>
     </div>
+
+    <div>
+      <div class="introduction">
+        <div>
+          <img src="./images/illustration-1.svg" alt="illustration-1">
+        </div> 
+        <div id="body-form">
+        <div>
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.</p>
+        </div>
+         
+        <form method="post">
+        <div>
+          <input type="email" placeholder="Enter your email...">
+        </div>
+        <div id="get-started">
+          <input type="submit" value="Get Started"> 
+        </div>
+      </form>
+    </div> 
+      </div>
   
-    <div class="suv">
-      <img src="https://user-images.githubusercontent.com/100494417/190622798-ac0f629c-7241-4b18-a2b5-e9329be64609.svg" alt="suv icon" title="suv icon" tabindex="0">
-      <h1 class="heading">SUVS</h1>
-      <p class="description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-        and off-road adventures.</p>
-        <a href="" tabindex="0">Learn More</a>
-    
     </div>
-  
-    <div class="luxury">
-      <img src="https://user-images.githubusercontent.com/100494417/190622775-ccacc843-0425-433c-a8f5-7796f4c6dc20.svg" alt="Luxury icon" title="Luxury icon" tabindex="0">
-      <h1 class="heading">LUXURY</h1>
-      <p class="description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-        rental and arrive in style.</p>
-        <a href="" tabindex="0">Learn More</a>
+
+    <div class="second">
+      
+        <div>
+          <img id="illustration-2" src="./images/illustration-2.svg" alt="illustration-2">
+        </div>
+
+        <div class="second-body">
+        <h2>
+          Stay productive, wherever you are
+        </h2>
+        <p class="body-2">Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.</p>
+          <p class="body-2">Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!</p>
+          <div id="link">
+          <div class="see">
+            <a href="">See how Fylo works</a>
+            <img src="./images/icon-arrow.svg" alt="arrow icon">
+          </div>
+          <hr style="width: 155px; margin-left: 7.5rem; color: hsl(170, 45%, 43%);">
+        </div>
+          <div class="quote">
+            <img src="./images/icon-quotes.svg" alt="quote icon">
+            <p id="quote-body">Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.</p>
+              
+                <img id="avatar" src="./images/avatar-testimonial.jpg" alt="avatar">
+                <div id="avatar-details">
+                  <p id="name">Kyle Burton</p>
+                  <p id="position" >Founder & CEO, Huddle</p>
+                </div>
+              </div>
+                
+          </div>
+      
     </div>
-   
+
+    <div class="third">
+      <div class="third-body">
+        <h3>
+          Get early access today
+        </h3>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      
+          <form method="post">
+            <div id="text-input">
+              <input type="email" placeholder="email@example.com">
+              </div>
+              <div id="for-free">
+                <input type="submit" value="Get Started For Free">
+              </div>
+            </form>
+    </div>
+
+    <div class="bottom">
+      <div>
+      <img id="bottom-logo" src="./images/logo.svg" alt="fylo logo">
+      <div>
+        <div class="contact">
+        <img src="./images/icon-phone.svg" alt="phone icon">
+        <p>Phone: +1-543-123-4567</p>
+      </div>
+
+      <div class="contact">
+        <img src="./images/icon-email.svg" alt="email icon">
+        <p>example@fylo.com</p>
+      </div>
+      </div>
+    </div>
+
+      <div class="info">
+        <pre>
+          <a href="">About Us</a>
+
+          <a href="">Jobs</a>
+
+          <a href="">Press</a>
+
+          <a href="">Blog</a>
+
+          
+        </pre>
+
+        <pre>
+          <a href="">Contact Us</a>
+
+          <a href="">Terms</a>
+
+          <a href="">Privacy</a>
+        </pre>
+      </div>
+      
+      <div class="icons">
+        <div class="socials">
+          <a href="https://facebook.com" target="_blank" tabindex="0">
+            <i style="padding: 7px 10px;" aria-label="facebook.com" class="fa-brands fa-facebook-f"></i>
+          </a>
+        
+          <a href="https://twitter.com" target="_blank" tabindex="0">
+            <i aria-label="twitter.com" class="fa-brands fa-twitter"></i>
+          </a>
+        
+          <a href="https://instagram.com" target="_blank" tabindex="0">
+            <i aria-label="instagram.com" class="fa-brands fa-instagram"></i>
+          </a>
+      </div>
+    </div>
+    </div>
+
   </main>
+
 </body>
 </html>
